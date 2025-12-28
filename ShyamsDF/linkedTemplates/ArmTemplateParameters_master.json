@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ShyamsDF"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_gen2_accountKey": {
+			"value": ""
+		},
+		"sql_db_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://shyamstorage1.dfs.core.windows.net/"
+		},
+		"ls_gen2_properties_typeProperties_url": {
+			"value": "https://shyamstorage1.dfs.core.windows.net/"
+		},
+		"sql_db_properties_typeProperties_server": {
+			"value": "shyamazureserver.database.windows.net"
+		},
+		"sql_db_properties_typeProperties_database": {
+			"value": "ShyamDB"
+		},
+		"sql_db_properties_typeProperties_userName": {
+			"value": "shyamazuredb"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
