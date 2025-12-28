@@ -1,0 +1,20 @@
+{
+	"name": "ds_parquet_dbo_artist",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_gen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "outbound",
+				"fileSystem": "practise"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"name": "ds_sql_server",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sql_server",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "artist_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "artist_name",
+				"type": "varchar"
+			},
+			{
+				"name": "genre",
+				"type": "varchar"
+			},
+			{
+				"name": "country",
+				"type": "varchar"
+			},
+			{
+				"name": "updated_at",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DimArtist"
+		}
+	}
+}
