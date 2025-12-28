@@ -11,6 +11,9 @@
 		"ls_gen2_accountKey": {
 			"value": ""
 		},
+		"ls_sql_server_password": {
+			"value": ""
+		},
 		"sql_db_password": {
 			"value": ""
 		},
@@ -19,6 +22,15 @@
 		},
 		"ls_gen2_properties_typeProperties_url": {
 			"value": "https://shyamstorage1.dfs.core.windows.net/"
+		},
+		"ls_sql_server_properties_typeProperties_server": {
+			"value": "shyamazureserver.database.windows.net"
+		},
+		"ls_sql_server_properties_typeProperties_database": {
+			"value": "shyamDB"
+		},
+		"ls_sql_server_properties_typeProperties_userName": {
+			"value": "shyamazuredb"
 		},
 		"sql_db_properties_typeProperties_server": {
 			"value": "shyamazureserver.database.windows.net"
