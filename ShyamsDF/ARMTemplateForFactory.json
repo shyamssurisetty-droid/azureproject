@@ -51,7 +51,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "source_",
+						"name": "source_ADLS_sink_ADLS",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
@@ -135,7 +135,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileName": "order1.csv",
+						"fileName": "customer1.csv",
 						"folderPath": "inbound",
 						"fileSystem": "practise"
 					},
